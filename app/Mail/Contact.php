@@ -27,7 +27,7 @@ class Contact extends Mailable
         $this->emisor    = $emisor;
         $this->nombre    = $nombre;
         $this->telefono  = $telefono;
-        $this->contenifo = $contenido;
+        $this->contenido = $contenido;
     }
 
     /**
