@@ -50,7 +50,7 @@ class ContactoController extends Controller
 
          $contacto->save();
          //enviamos el email
-         Mail::to($contacto->receptor)->send(new Contact());
+         Mail::to($contacto->receptor)->send(new Contact($contacto->emisor,$contacto->nombre,$contacto->telefono, $contacto->contenido));
 
          return response()->json(["success"=>true],200);
 
