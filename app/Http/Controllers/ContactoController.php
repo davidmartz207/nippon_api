@@ -43,8 +43,8 @@ class ContactoController extends Controller
 
 
          $contacto->nombre    = $request->get('nombre');
-         $contacto->emisor    = $request->get('email');
-         $contacto->receptor  = $request->get('email');
+         $contacto->emisor    = $request->get('emisor');
+         $contacto->receptor  = $request->get('receptor');
          $contacto->contenido = $request->get('contenido');
          $contacto->telefono  = $request->get('telefono');
 
