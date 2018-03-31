@@ -212,7 +212,7 @@
            style="margin: auto;" class="email-container">
         <tr>
             <td style="padding: 20px 0; text-align: center">
-                <img src="{{asset('Logo_TransparenteColor.png')}}" width="200" height="50"
+                <img src="{{env('APP_URL')}}/public/Logo_TransparenteColor.png" width="200" height="50"
                      alt="Innovaccount" border="0"
                      style="height: auto; background: #444440; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #444440;">
             </td>
