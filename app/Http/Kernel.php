@@ -19,6 +19,7 @@ class Kernel extends HttpKernel
         \serendipia\Http\Middleware\TrimStrings::class,
         \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
         \serendipia\Http\Middleware\TrustProxies::class,
+        \serendipia\Http\Middleware\VerifyAccessKey::class,
     ];
 
     /**
