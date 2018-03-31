@@ -198,8 +198,8 @@
     <![endif]-->
 
 </head>
-<body width="100%" bgcolor="#444440" style="margin: 0; mso-line-height-rule: exactly;">
-<center style="width: 100%; background: #444440; text-align: left;">
+<body width="100%" bgcolor="#FFFFFF" style="margin: 0; mso-line-height-rule: exactly;">
+<center style="width: 100%; background: #FFFFFF; text-align: left;">
 
     <!-- Visually Hidden Preheader Text : BEGIN -->
     <div style="display: none; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">
@@ -214,7 +214,7 @@
             <td style="padding: 20px 0; text-align: center">
                 <img src="{{env('APP_URL')}}/public/Logo_TransparenteColor.png" width="200" height="50"
                      alt="Innovaccount" border="0"
-                     style="height: auto; background: #444440; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #444440;">
+                     style="height: auto; background: #FFFFFF; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #FFFFFF;">
             </td>
         </tr>
     </table>
@@ -252,9 +252,9 @@
                 <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center"
                        style="margin: auto">
                     <tr>
-                        <td style="border-radius: 3px; background: #444440; text-align: center;" class="button-td">
+                        <td style="border-radius: 3px; background: #FFFFFF; text-align: center;" class="button-td">
                             <a href="{{env('APP_URL')}}"
-                               style="background: #444440; border: 15px solid #444440; font-family: sans-serif; font-size: 13px; line-height: 1.1; text-align: center; text-decoration: none; display: block; border-radius: 3px; font-weight: bold;"
+                               style="background: #FFFFFF; border: 15px solid #FFFFFF; font-family: sans-serif; font-size: 13px; line-height: 1.1; text-align: center; text-decoration: none; display: block; border-radius: 3px; font-weight: bold;"
                                class="button-a">
                                 &nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#ffffff;">Ingresar</span>&nbsp;&nbsp;&nbsp;&nbsp;
                             </a>
@@ -290,7 +290,7 @@
                     <![endif]-->
                     <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                         <tr>
-                            <td style="padding: 40px; text-align: center; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #444440;">
+                            <td style="padding: 40px; text-align: center; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #FFFFFF;">
                                 <p style="margin: 0;">¡Gracias!</p>
                             </td>
                         </tr>
