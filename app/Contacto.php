@@ -8,5 +8,5 @@ class Contacto extends Model
 {
     protected $table = 'contactos';
 
-    protected $fillable = ['email','nombre','contenido','telefono'];
+    protected $fillable = ['emisor','receptor','nombre','contenido','telefono'];
 }

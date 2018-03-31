@@ -22,9 +22,10 @@ class ContactoController extends Controller
 
          //reglas de Validación para el request
          $rules = [
-             'nombre' =>'required',
-             'email' =>'required|string',
-             'telefono' =>'required|string',
+             'nombre'    =>'required',
+             'emisor'    =>'required|string|email',
+             'receptor'  =>'required|string|email',
+             'telefono'  =>'required|string',
              'contenido' =>'required|string',
          ];
 
@@ -42,13 +43,14 @@ class ContactoController extends Controller
 
 
          $contacto->nombre    = $request->get('nombre');
-         $contacto->email     = $request->get('email');
+         $contacto->emisor    = $request->get('email');
+         $contacto->receptor  = $request->get('email');
          $contacto->contenido = $request->get('contenido');
          $contacto->telefono  = $request->get('telefono');
 
          $contacto->save();
          //enviamos el email
-         Mail::to($contacto->email)->send(new Contact());
+         Mail::to($contacto->receptor)->send(new Contact());
 
          return response()->json(["success"=>true],200);
 
