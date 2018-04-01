@@ -20,6 +20,8 @@ class Kernel extends HttpKernel
         \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
         \serendipia\Http\Middleware\TrustProxies::class,
         \serendipia\Http\Middleware\VerifyAccessKey::class,
+        \Spatie\Cors\Cors::class
+
     ];
 
     /**
