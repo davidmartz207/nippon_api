@@ -244,7 +244,8 @@
             <td bgcolor="#ffffff"
                 style="padding: 0 40px 40px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; text-align: center;">
                 <p style="margin: 0;">{{$contenido}}</p>
-                <p style="margin: 0;"><b>Teléfono</b>{{$telefono}}</p>
+                <p style="margin: 0;"><b>Teléfono:&nbsp;</b>{{$telefono}}</p>
+                <p style="margin: 0;"><b>Email:&nbsp;</b>{{$email}}</p>
             </td>
         </tr>
         <!--<tr>

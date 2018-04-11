@@ -15,5 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::view('/email', 'mail/contacto')->name('email');
+
 
