@@ -203,7 +203,7 @@
 
     <!-- Visually Hidden Preheader Text : BEGIN -->
     <div style="display: none; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">
-        Contacto Serendipia.
+        Contact Nippon.
     </div>
     <!-- Visually Hidden Preheader Text : END -->
 
@@ -212,8 +212,8 @@
            style="margin: auto;" class="email-container">
         <tr>
             <td style="padding: 20px 0; text-align: center">
-                <img src="{{env('APP_URL')}}/public/Logo_TransparenteColor.png" width="200" height="50"
-                     alt="Innovaccount" border="0"
+                <img src="{{env('APP_URL')}}/public/nippon_logo.png" width="200" height="50"
+                     alt="Nippon" border="0"
                      style="height: auto; background: #FFFFFF; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #FFFFFF;">
             </td>
         </tr>
@@ -237,14 +237,15 @@
         <tr>
             <td bgcolor="#ffffff" style="padding: 40px 40px 20px; text-align: center;">
                 <h1 style="margin: 0; font-family: sans-serif; font-size: 24px; line-height: 27px; color: #333333; font-weight: normal;">
-                    {{$nombre}} ha enviado un mensaje</h1>
+                    {{$nombre}}Sent you a message!</h1>
             </td>
         </tr>
         <tr>
             <td bgcolor="#ffffff"
                 style="padding: 0 40px 40px; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #555555; text-align: center;">
+                <p>Subject: {{$asunto}}</p>
                 <p style="margin: 0;">{{$contenido}}</p>
-                <p style="margin: 0;"><b>Teléfono:&nbsp;</b>{{$telefono}}</p>
+                <p style="margin: 0;"><b>Phone:&nbsp;</b>{{$telefono}}</p>
                 <p style="margin: 0;"><b>Email:&nbsp;</b>{{$email}}</p>
             </td>
         </tr>
@@ -293,7 +294,7 @@
                     <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
                         <tr>
                             <td style="padding: 40px; text-align: center; font-family: sans-serif; font-size: 15px; line-height: 20px; color: #FFFFFF;">
-                                <p style="margin: 0;">¡Gracias!</p>
+                                <p style="margin: 0;">Thank You!</p>
                             </td>
                         </tr>
                     </table>
